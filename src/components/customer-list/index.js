@@ -1,5 +1,6 @@
-import React, {useState}  from "react";
 import {computeHeadingLevel} from "@testing-library/react";
+import React, {useState}  from "react";
+
 import "./index.css";
 
 function CustomerList() {
@@ -19,11 +20,12 @@ function CustomerList() {
       <section className="layout-row align-items-center justify-content-center">
         <input 
         onChange={handleChange}
-        value={name}
+        
         type="text" 
         className="large" 
         placeholder="Name" 
         data-testid="app-input"
+        value={name}
         />
         <button 
          onChange={handleClick}
@@ -48,4 +50,4 @@ function CustomerList() {
   );
 }
 
-export default CustomerList
+export default CustomerList;

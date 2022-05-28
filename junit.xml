@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="5" time="2.298">
-  <testsuite name="undefined" errors="0" failures="5" skipped="0" timestamp="2022-05-28T10:38:49" time="1.706" tests="5">
-    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.039">
+<testsuites name="jest tests" tests="5" failures="5" time="2.205">
+  <testsuite name="undefined" errors="0" failures="5" skipped="0" timestamp="2022-05-28T10:42:16" time="1.643" tests="5">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.04">
       <failure>Error: expect(received).toBe(expected) // Object.is equality
 
 Expected: null
@@ -128,7 +128,7 @@ Received: &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;customer-list&
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" after adding customer input has no value" name=" after adding customer input has no value" time="0.007">
+    <testcase classname=" after adding customer input has no value" name=" after adding customer input has no value" time="0.008">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;list-item0&quot;]
 
 &lt;body&gt;
